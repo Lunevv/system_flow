@@ -31,7 +31,7 @@ server {
 
     # Frontend
     location / {
-        proxy_pass http://localhost:3000;
+        proxy_pass http://127.0.0.1:3000;
         proxy_http_version 1.1;
         proxy_set_header Upgrade \$http_upgrade;
         proxy_set_header Connection 'upgrade';
@@ -44,7 +44,7 @@ server {
 
     # Backend API
     location /api/ {
-        proxy_pass http://localhost:3001;
+        proxy_pass http://127.0.0.1:3001;
         proxy_http_version 1.1;
         proxy_set_header Host \$host;
         proxy_set_header X-Real-IP \$remote_addr;
@@ -53,6 +53,16 @@ server {
         proxy_set_header Connection '';
         proxy_buffering off;
         proxy_read_timeout 300s;
+    }
+
+    # Static files (JSON, CSV) - проксируем через backend
+    location ~ \.(json|csv)$ {
+        proxy_pass http://localhost:3001;
+        proxy_http_version 1.1;
+        proxy_set_header Host \$host;
+        proxy_set_header X-Real-IP \$remote_addr;
+        proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
+        add_header Access-Control-Allow-Origin *;
     }
 }
 EOF

@@ -216,7 +216,7 @@ const EmailRoutingManager = () => {
       setQueueSettings(settingsData);
 
       // Загружаем маппинг очередей (оставляем как есть)
-      const mappingsResponse = await fetch(`/config_queue.csv?v=${cacheBuster}`);
+      const mappingsResponse = await fetch(`/api/config_queue.csv?v=${cacheBuster}`);
       if (!mappingsResponse.ok) {
         throw new Error(`HTTP error! status: ${mappingsResponse.status}`);
       }
@@ -452,7 +452,7 @@ const EmailRoutingManager = () => {
       console.log('Загружено кэшированных данных:', data.length, 'записей');
       
       // Загружаем маппинг очередей для получения имен масок и репутаций
-      const mappingsResponse = await fetch('/config_queue.csv');
+      const mappingsResponse = await fetch('/api/config_queue.csv');
       const mappingsText = await mappingsResponse.text();
       const mappingsData = parseCSV(mappingsText);
       

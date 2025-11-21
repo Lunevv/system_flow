@@ -343,6 +343,35 @@ app.get('/api/metabase.txt', async (req, res) => {
   }
 });
 
+// Endpoint для получения config_queue.csv
+app.get('/api/config_queue.csv', async (req, res) => {
+  try {
+    const fs = await import('fs');
+    const path = await import('path');
+    
+    const configQueuePath = path.join(process.cwd(), 'config_queue.csv');
+    
+    if (!fs.existsSync(configQueuePath)) {
+      return res.status(404).json({ 
+        success: false, 
+        error: 'Файл config_queue.csv не найден' 
+      });
+    }
+    
+    const content = fs.readFileSync(configQueuePath, 'utf8');
+    res.setHeader('Content-Type', 'text/csv');
+    res.setHeader('Cache-Control', 'no-cache');
+    res.send(content);
+    
+  } catch (error) {
+    console.error('❌ Ошибка чтения config_queue.csv:', error);
+    res.status(500).json({ 
+      success: false, 
+      error: error.message 
+    });
+  }
+});
+
 // Endpoint для получения кэшированной статистики
 app.get('/api/cached-stats', async (req, res) => {
   try {
