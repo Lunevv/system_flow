@@ -1,0 +1,5 @@
+# Автоматическое обновление данных статистики из Metabase
+# Запускается каждый день в 6:00 утра
+
+0 6 * * * cd /Users/lv/Downloads/system-flow && /opt/homebrew/bin/node manage-data.js update >> /Users/lv/Downloads/system-flow/daily-update.log 2>&1
+

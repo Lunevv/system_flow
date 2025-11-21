@@ -1,0 +1,47 @@
+{
+  "name": "esp-server-manager",
+  "version": "1.0.0",
+  "description": "Система просмотра и управления серверами ESP и распределения потоков между клиентами",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "proxy": "node proxy-server.js",
+    "dev:full": "concurrently \"npm run proxy\" \"npm run dev\"",
+    "data:init": "node manage-data.js init",
+    "data:update": "node manage-data.js update",
+    "data:stats": "node manage-data.js stats",
+    "data:schedule": "node manage-data.js schedule",
+    "data:load": "node manage-incremental-data.js load",
+    "data:load-multiple": "node manage-incremental-data.js load-multiple",
+    "data:stats-inc": "node manage-incremental-data.js stats",
+    "data:schedule-inc": "node manage-incremental-data.js schedule",
+    "data:daily-update": "node daily-update.js",
+    "bi:fetch": "node fetch-bi-data.js",
+    "bi:force": "node fetch-bi-data.js --force",
+    "bi:update-now": "node daily-bi-update.js now",
+    "bi:schedule": "node daily-bi-update.js schedule"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^6.1.0",
+    "csv-stringify": "^6.6.0",
+    "express": "^5.1.0",
+    "lucide-react": "^0.263.1",
+    "node-cron": "^4.2.1",
+    "node-fetch": "^3.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.2.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13",
+    "vite": "^4.4.5"
+  }
+}

@@ -1,0 +1,3548 @@
+﻿[
+    {
+        "id": 1151,
+        "status": "disabled",
+        "idQueue": 529,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 100,
+        "parallelSentMails": 0,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 1158,
+        "status": "disabled",
+        "idQueue": 546,
+        "nameMailSender": "production-mail-sender-4",
+        "timeoutSentMails": 100,
+        "parallelSentMails": 0,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 1207,
+        "status": "disabled",
+        "idQueue": 95,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1155,
+        "status": "disabled",
+        "idQueue": 545,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 1205,
+        "status": "disabled",
+        "idQueue": 189,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1206,
+        "status": "disabled",
+        "idQueue": 8,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1242,
+        "status": "disabled",
+        "idQueue": 615,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 1000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1141,
+        "status": "disabled",
+        "idQueue": 2,
+        "nameMailSender": "production-mail-sender-aws-23",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 1140,
+        "status": "disabled",
+        "idQueue": 2,
+        "nameMailSender": "production-mail-sender-aws-2",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 1126,
+        "status": "disabled",
+        "idQueue": 445,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5
+    },
+    {
+        "id": 1154,
+        "status": "enabled",
+        "idQueue": 545,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 0,
+        "parallelSentMails": 10,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 867,
+        "status": "enabled",
+        "idQueue": 449,
+        "nameMailSender": "production100-mail-sender-106",
+        "timeoutSentMails": 50,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500000
+    },
+    {
+        "id": 868,
+        "status": "enabled",
+        "idQueue": 449,
+        "nameMailSender": "production100-mail-sender-107",
+        "timeoutSentMails": 50,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500000
+    },
+    {
+        "id": 871,
+        "status": "enabled",
+        "idQueue": 446,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 80000
+    },
+    {
+        "id": 1157,
+        "status": "enabled",
+        "idQueue": 546,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 100,
+        "parallelSentMails": 0,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 1136,
+        "status": "enabled",
+        "idQueue": 544,
+        "nameMailSender": "production-mail-sender-aws-2",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 500000000
+    },
+    {
+        "id": 1125,
+        "status": "enabled",
+        "idQueue": 445,
+        "nameMailSender": "production100-mail-sender-112",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 870,
+        "status": "enabled",
+        "idQueue": 449,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 50,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500000
+    },
+    {
+        "id": 895,
+        "status": "enabled",
+        "idQueue": 444,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 894,
+        "status": "enabled",
+        "idQueue": 445,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 5050
+    },
+    {
+        "id": 869,
+        "status": "enabled",
+        "idQueue": 449,
+        "nameMailSender": "production100-mail-sender-108",
+        "timeoutSentMails": 50,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500000
+    },
+    {
+        "id": 893,
+        "status": "enabled",
+        "idQueue": 443,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 80000
+    },
+    {
+        "id": 898,
+        "status": "enabled",
+        "idQueue": 452,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 897,
+        "status": "enabled",
+        "idQueue": 451,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 896,
+        "status": "enabled",
+        "idQueue": 450,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 1319,
+        "status": "disabled",
+        "idQueue": 10,
+        "nameMailSender": "production100-mail-sender-116",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20
+    },
+    {
+        "id": 1320,
+        "status": "disabled",
+        "idQueue": 10,
+        "nameMailSender": "production100-mail-sender-117",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20
+    },
+    {
+        "id": 880,
+        "status": "disabled",
+        "idQueue": 106,
+        "nameMailSender": "production-mail-sender-aws-2",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 1146,
+        "status": "disabled-by-limit",
+        "idQueue": 2,
+        "nameMailSender": "production100-mail-sender-111",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 18000
+    },
+    {
+        "id": 879,
+        "status": "disabled",
+        "idQueue": 105,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 1460,
+        "status": "enabled",
+        "idQueue": 724,
+        "nameMailSender": "production100-mail-sender-106",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 200
+    },
+    {
+        "id": 1459,
+        "status": "enabled",
+        "idQueue": 724,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 200
+    },
+    {
+        "id": 1144,
+        "status": "disabled-by-limit",
+        "idQueue": 2,
+        "nameMailSender": "production100-mail-sender-109",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 18000
+    },
+    {
+        "id": 1358,
+        "status": "enabled",
+        "idQueue": 106,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1318,
+        "status": "disabled",
+        "idQueue": 10,
+        "nameMailSender": "production100-mail-sender-115",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20
+    },
+    {
+        "id": 1023,
+        "status": "disabled",
+        "idQueue": 1,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 6000
+    },
+    {
+        "id": 1169,
+        "status": "enabled",
+        "idQueue": 259,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 1000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1317,
+        "status": "disabled",
+        "idQueue": 10,
+        "nameMailSender": "production100-mail-sender-114",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20
+    },
+    {
+        "id": 1208,
+        "status": "disabled",
+        "idQueue": 107,
+        "nameMailSender": "production-mail-sender-aws-21",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 400333
+    },
+    {
+        "id": 866,
+        "status": "disabled",
+        "idQueue": 449,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 50,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500000
+    },
+    {
+        "id": 1008,
+        "status": "disabled",
+        "idQueue": 442,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 1362,
+        "status": "disabled",
+        "idQueue": 107,
+        "nameMailSender": "production-mail-sender-aws-23",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 400333
+    },
+    {
+        "id": 1117,
+        "status": "disabled-by-limit",
+        "idQueue": 3,
+        "nameMailSender": "production100-mail-sender-109",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 2200
+    },
+    {
+        "id": 1120,
+        "status": "disabled-by-limit",
+        "idQueue": 3,
+        "nameMailSender": "production100-mail-sender-112",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 7900
+    },
+    {
+        "id": 1361,
+        "status": "disabled",
+        "idQueue": 107,
+        "nameMailSender": "production-mail-sender-aws-22",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 400333
+    },
+    {
+        "id": 1011,
+        "status": "enabled",
+        "idQueue": 1,
+        "nameMailSender": "production-mail-sender-aws-2",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1010,
+        "status": "enabled",
+        "idQueue": 1,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1098,
+        "status": "enabled",
+        "idQueue": 485,
+        "nameMailSender": "production100-mail-sender-107",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1121,
+        "status": "disabled-by-limit",
+        "idQueue": 3,
+        "nameMailSender": "production100-mail-sender-113",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 7900
+    },
+    {
+        "id": 1455,
+        "status": "enabled",
+        "idQueue": 723,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 2000
+    },
+    {
+        "id": 973,
+        "status": "enabled",
+        "idQueue": 484,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 1026,
+        "status": "enabled",
+        "idQueue": 1,
+        "nameMailSender": "production100-mail-sender-107",
+        "timeoutSentMails": 1500,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 8000
+    },
+    {
+        "id": 1062,
+        "status": "enabled",
+        "idQueue": 490,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 25000
+    },
+    {
+        "id": 1106,
+        "status": "enabled",
+        "idQueue": 490,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 16000
+    },
+    {
+        "id": 1063,
+        "status": "enabled",
+        "idQueue": 490,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 25000
+    },
+    {
+        "id": 1005,
+        "status": "enabled",
+        "idQueue": 490,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 4800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 1103,
+        "status": "enabled",
+        "idQueue": 490,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 16000
+    },
+    {
+        "id": 1461,
+        "status": "enabled",
+        "idQueue": 725,
+        "nameMailSender": "production100-mail-sender-109",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 400
+    },
+    {
+        "id": 1133,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production100-mail-sender-111",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 15000
+    },
+    {
+        "id": 1149,
+        "status": "enabled",
+        "idQueue": 2,
+        "nameMailSender": "production100-mail-sender-113",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 35000
+    },
+    {
+        "id": 1280,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production-mail-sender-aws-3",
+        "timeoutSentMails": 1500,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 15000
+    },
+    {
+        "id": 1145,
+        "status": "disabled-by-limit",
+        "idQueue": 2,
+        "nameMailSender": "production100-mail-sender-110",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 18000
+    },
+    {
+        "id": 1119,
+        "status": "disabled-by-limit",
+        "idQueue": 3,
+        "nameMailSender": "production100-mail-sender-111",
+        "timeoutSentMails": 2000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 6200
+    },
+    {
+        "id": 1360,
+        "status": "disabled",
+        "idQueue": 107,
+        "nameMailSender": "production-mail-sender-aws-3",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 1000000
+    },
+    {
+        "id": 1108,
+        "status": "disabled-by-limit",
+        "idQueue": 5,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 5000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50
+    },
+    {
+        "id": 1343,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production100-mail-sender-111",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5200
+    },
+    {
+        "id": 1132,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production100-mail-sender-110",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 15000
+    },
+    {
+        "id": 1168,
+        "status": "enabled",
+        "idQueue": 259,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 1000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1020,
+        "status": "enabled",
+        "idQueue": 1,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 1500,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 1457,
+        "status": "disabled",
+        "idQueue": 722,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10
+    },
+    {
+        "id": 1024,
+        "status": "enabled",
+        "idQueue": 1,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 1500,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 6000
+    },
+    {
+        "id": 1138,
+        "status": "enabled",
+        "idQueue": 488,
+        "nameMailSender": "production-mail-sender-aws-2",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 500000000
+    },
+    {
+        "id": 1025,
+        "status": "enabled",
+        "idQueue": 1,
+        "nameMailSender": "production100-mail-sender-106",
+        "timeoutSentMails": 1500,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 8000
+    },
+    {
+        "id": 1027,
+        "status": "enabled",
+        "idQueue": 1,
+        "nameMailSender": "production100-mail-sender-108",
+        "timeoutSentMails": 1500,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 8000
+    },
+    {
+        "id": 1131,
+        "status": "disabled-by-limit",
+        "idQueue": 4,
+        "nameMailSender": "production100-mail-sender-109",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1147,
+        "status": "disabled-by-limit",
+        "idQueue": 2,
+        "nameMailSender": "production100-mail-sender-112",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 18000
+    },
+    {
+        "id": 1359,
+        "status": "enabled",
+        "idQueue": 106,
+        "nameMailSender": "production100-mail-sender-103",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1021,
+        "status": "enabled",
+        "idQueue": 260,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 1500,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 4000
+    },
+    {
+        "id": 1064,
+        "status": "enabled",
+        "idQueue": 526,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1007,
+        "status": "disabled",
+        "idQueue": 442,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 1458,
+        "status": "enabled",
+        "idQueue": 12,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 100,
+        "parallelSentMails": 0,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 1331,
+        "status": "enabled",
+        "idQueue": 447,
+        "nameMailSender": "production100-mail-sender-116",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500
+    },
+    {
+        "id": 1349,
+        "status": "enabled",
+        "idQueue": 105,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1416,
+        "status": "enabled",
+        "idQueue": 62,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1377,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production100-mail-sender-114",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 1200
+    },
+    {
+        "id": 1165,
+        "status": "enabled",
+        "idQueue": 549,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 1329,
+        "status": "enabled",
+        "idQueue": 447,
+        "nameMailSender": "production100-mail-sender-114",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500
+    },
+    {
+        "id": 1341,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production100-mail-sender-106",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 6000
+    },
+    {
+        "id": 1381,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production100-mail-sender-118",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 900
+    },
+    {
+        "id": 1167,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production100-mail-sender-110",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5700
+    },
+    {
+        "id": 1351,
+        "status": "enabled",
+        "idQueue": 105,
+        "nameMailSender": "production100-mail-sender-108",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1344,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production100-mail-sender-112",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 6900
+    },
+    {
+        "id": 1352,
+        "status": "enabled",
+        "idQueue": 105,
+        "nameMailSender": "production100-mail-sender-109",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1378,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production100-mail-sender-115",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 1200
+    },
+    {
+        "id": 1345,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production100-mail-sender-113",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 6900
+    },
+    {
+        "id": 1279,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 1500,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 15000
+    },
+    {
+        "id": 1454,
+        "status": "enabled",
+        "idQueue": 722,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10
+    },
+    {
+        "id": 1022,
+        "status": "enabled",
+        "idQueue": 8,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 1354,
+        "status": "enabled",
+        "idQueue": 105,
+        "nameMailSender": "production100-mail-sender-111",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1334,
+        "status": "enabled",
+        "idQueue": 104,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 30000
+    },
+    {
+        "id": 892,
+        "status": "enabled",
+        "idQueue": 447,
+        "nameMailSender": "production100-mail-sender-108",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 2500
+    },
+    {
+        "id": 1350,
+        "status": "enabled",
+        "idQueue": 105,
+        "nameMailSender": "production100-mail-sender-103",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1379,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production100-mail-sender-116",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 900
+    },
+    {
+        "id": 1335,
+        "status": "enabled",
+        "idQueue": 104,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 30000
+    },
+    {
+        "id": 1326,
+        "status": "enabled",
+        "idQueue": 655,
+        "nameMailSender": "production100-mail-sender-115",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 1456,
+        "status": "disabled",
+        "idQueue": 722,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10
+    },
+    {
+        "id": 1115,
+        "status": "enabled",
+        "idQueue": 533,
+        "nameMailSender": "production100-mail-sender-112",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 1365,
+        "status": "disabled",
+        "idQueue": 6,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5
+    },
+    {
+        "id": 1164,
+        "status": "enabled",
+        "idQueue": 549,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 1336,
+        "status": "enabled",
+        "idQueue": 104,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 60000
+    },
+    {
+        "id": 972,
+        "status": "enabled",
+        "idQueue": 485,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 1353,
+        "status": "enabled",
+        "idQueue": 105,
+        "nameMailSender": "production100-mail-sender-110",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1134,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production-mail-sender-aws-2",
+        "timeoutSentMails": 1500,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 15000
+    },
+    {
+        "id": 1380,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production100-mail-sender-117",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 900
+    },
+    {
+        "id": 1203,
+        "status": "enabled",
+        "idQueue": 582,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 1000
+    },
+    {
+        "id": 1422,
+        "status": "enabled",
+        "idQueue": 691,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 2000
+    },
+    {
+        "id": 1085,
+        "status": "enabled",
+        "idQueue": 484,
+        "nameMailSender": "production100-mail-sender-107",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 30000
+    },
+    {
+        "id": 1006,
+        "status": "disabled",
+        "idQueue": 442,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 1314,
+        "status": "enabled",
+        "idQueue": 650,
+        "nameMailSender": "production-mail-sender-aws-21",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 1323,
+        "status": "enabled",
+        "idQueue": 652,
+        "nameMailSender": "production100-mail-sender-117",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 1315,
+        "status": "enabled",
+        "idQueue": 648,
+        "nameMailSender": "production-mail-sender-aws-23",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 1342,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production100-mail-sender-109",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 4600
+    },
+    {
+        "id": 1357,
+        "status": "disabled",
+        "idQueue": 106,
+        "nameMailSender": "production-mail-sender-5",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 1000000
+    },
+    {
+        "id": 1356,
+        "status": "disabled",
+        "idQueue": 106,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 1000000
+    },
+    {
+        "id": 1109,
+        "status": "disabled-by-limit",
+        "idQueue": 5,
+        "nameMailSender": "production100-mail-sender-106",
+        "timeoutSentMails": 3000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 40
+    },
+    {
+        "id": 1066,
+        "status": "enabled",
+        "idQueue": 526,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 1421,
+        "status": "enabled",
+        "idQueue": 689,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 2000
+    },
+    {
+        "id": 1028,
+        "status": "enabled",
+        "idQueue": 493,
+        "nameMailSender": "production-mail-sender-aws-22",
+        "timeoutSentMails": 150,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 1074,
+        "status": "enabled",
+        "idQueue": 447,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1014,
+        "status": "enabled",
+        "idQueue": 491,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1333,
+        "status": "enabled",
+        "idQueue": 447,
+        "nameMailSender": "production100-mail-sender-118",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500
+    },
+    {
+        "id": 1111,
+        "status": "disabled-by-limit",
+        "idQueue": 5,
+        "nameMailSender": "production100-mail-sender-108",
+        "timeoutSentMails": 5000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 45
+    },
+    {
+        "id": 1107,
+        "status": "disabled-by-limit",
+        "idQueue": 5,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50
+    },
+    {
+        "id": 1110,
+        "status": "disabled-by-limit",
+        "idQueue": 5,
+        "nameMailSender": "production100-mail-sender-107",
+        "timeoutSentMails": 3000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50
+    },
+    {
+        "id": 1127,
+        "status": "enabled",
+        "idQueue": 537,
+        "nameMailSender": "production-mail-sender-aws-22",
+        "timeoutSentMails": 150,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 1135,
+        "status": "enabled",
+        "idQueue": 448,
+        "nameMailSender": "production-mail-sender-aws-2",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 500000000
+    },
+    {
+        "id": 1078,
+        "status": "enabled",
+        "idQueue": 486,
+        "nameMailSender": "production100-mail-sender-107",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1246,
+        "status": "enabled",
+        "idQueue": 615,
+        "nameMailSender": "production100-mail-sender-113",
+        "timeoutSentMails": 1000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1061,
+        "status": "enabled",
+        "idQueue": 490,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 16000
+    },
+    {
+        "id": 1104,
+        "status": "enabled",
+        "idQueue": 490,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 8000
+    },
+    {
+        "id": 1013,
+        "status": "enabled",
+        "idQueue": 491,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1018,
+        "status": "enabled",
+        "idQueue": 492,
+        "nameMailSender": "production-mail-sender-5",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1346,
+        "status": "enabled",
+        "idQueue": 105,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1282,
+        "status": "enabled",
+        "idQueue": 491,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1382,
+        "status": "enabled",
+        "idQueue": 485,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1376,
+        "status": "enabled",
+        "idQueue": 484,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 30000
+    },
+    {
+        "id": 1137,
+        "status": "enabled",
+        "idQueue": 487,
+        "nameMailSender": "production-mail-sender-aws-2",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 500000000
+    },
+    {
+        "id": 1339,
+        "status": "enabled",
+        "idQueue": 104,
+        "nameMailSender": "production-mail-sender-5",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 60000
+    },
+    {
+        "id": 1338,
+        "status": "enabled",
+        "idQueue": 104,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 60000
+    },
+    {
+        "id": 1348,
+        "status": "enabled",
+        "idQueue": 105,
+        "nameMailSender": "production-mail-sender-5",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1071,
+        "status": "enabled",
+        "idQueue": 528,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 1500,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 250
+    },
+    {
+        "id": 1337,
+        "status": "enabled",
+        "idQueue": 104,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 60000
+    },
+    {
+        "id": 1347,
+        "status": "enabled",
+        "idQueue": 105,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1072,
+        "status": "enabled",
+        "idQueue": 528,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 180
+    },
+    {
+        "id": 1340,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production-mail-sender-70",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 2400
+    },
+    {
+        "id": 1105,
+        "status": "enabled",
+        "idQueue": 490,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 8000
+    },
+    {
+        "id": 1163,
+        "status": "enabled",
+        "idQueue": 447,
+        "nameMailSender": "production-mail-sender-70",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 1700
+    },
+    {
+        "id": 1073,
+        "status": "enabled",
+        "idQueue": 528,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 1283,
+        "status": "enabled",
+        "idQueue": 442,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 1068,
+        "status": "enabled",
+        "idQueue": 528,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 180
+    },
+    {
+        "id": 1281,
+        "status": "enabled",
+        "idQueue": 492,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1325,
+        "status": "enabled",
+        "idQueue": 654,
+        "nameMailSender": "production100-mail-sender-118",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 1116,
+        "status": "enabled",
+        "idQueue": 534,
+        "nameMailSender": "production100-mail-sender-111",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 1114,
+        "status": "enabled",
+        "idQueue": 532,
+        "nameMailSender": "production100-mail-sender-113",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 1324,
+        "status": "enabled",
+        "idQueue": 653,
+        "nameMailSender": "production100-mail-sender-114",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 1113,
+        "status": "enabled",
+        "idQueue": 530,
+        "nameMailSender": "production100-mail-sender-110",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 1322,
+        "status": "enabled",
+        "idQueue": 651,
+        "nameMailSender": "production100-mail-sender-116",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 1316,
+        "status": "enabled",
+        "idQueue": 649,
+        "nameMailSender": "production-mail-sender-aws-22",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 1015,
+        "status": "enabled",
+        "idQueue": 491,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1363,
+        "status": "enabled",
+        "idQueue": 656,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1019,
+        "status": "enabled",
+        "idQueue": 492,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1384,
+        "status": "enabled",
+        "idQueue": 442,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 1383,
+        "status": "enabled",
+        "idQueue": 442,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 1385,
+        "status": "enabled",
+        "idQueue": 442,
+        "nameMailSender": "production100-mail-sender-103",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 1016,
+        "status": "enabled",
+        "idQueue": 491,
+        "nameMailSender": "production100-mail-sender-103",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1332,
+        "status": "enabled",
+        "idQueue": 447,
+        "nameMailSender": "production100-mail-sender-117",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500
+    },
+    {
+        "id": 1330,
+        "status": "enabled",
+        "idQueue": 447,
+        "nameMailSender": "production100-mail-sender-115",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500
+    },
+    {
+        "id": 1065,
+        "status": "enabled",
+        "idQueue": 527,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 1067,
+        "status": "enabled",
+        "idQueue": 527,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 1321,
+        "status": "disabled",
+        "idQueue": 10,
+        "nameMailSender": "production100-mail-sender-118",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20
+    },
+    {
+        "id": 878,
+        "status": "enabled",
+        "idQueue": 409,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 1204,
+        "status": "enabled",
+        "idQueue": 582,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 1000
+    },
+    {
+        "id": 1367,
+        "status": "disabled-by-limit",
+        "idQueue": 6,
+        "nameMailSender": "production100-mail-sender-106",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100
+    },
+    {
+        "id": 1368,
+        "status": "disabled-by-limit",
+        "idQueue": 6,
+        "nameMailSender": "production100-mail-sender-107",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100
+    },
+    {
+        "id": 1366,
+        "status": "disabled-by-limit",
+        "idQueue": 6,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100
+    },
+    {
+        "id": 1372,
+        "status": "disabled",
+        "idQueue": 6,
+        "nameMailSender": "production100-mail-sender-112",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100
+    },
+    {
+        "id": 1075,
+        "status": "enabled",
+        "idQueue": 483,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 1374,
+        "status": "enabled",
+        "idQueue": 483,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 3000,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 974,
+        "status": "enabled",
+        "idQueue": 486,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 1166,
+        "status": "enabled",
+        "idQueue": 483,
+        "nameMailSender": "production100-mail-sender-107",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 1241,
+        "status": "enabled",
+        "idQueue": 486,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 3000,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 1245,
+        "status": "disabled-by-limit",
+        "idQueue": 6,
+        "nameMailSender": "production100-mail-sender-113",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100
+    },
+    {
+        "id": 1244,
+        "status": "disabled-by-limit",
+        "idQueue": 6,
+        "nameMailSender": "production100-mail-sender-109",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100
+    },
+    {
+        "id": 1170,
+        "status": "disabled-by-limit",
+        "idQueue": 6,
+        "nameMailSender": "production100-mail-sender-108",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 200
+    },
+    {
+        "id": 1243,
+        "status": "disabled",
+        "idQueue": 6,
+        "nameMailSender": "production-mail-sender-4",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 200
+    },
+    {
+        "id": 1364,
+        "status": "disabled",
+        "idQueue": 6,
+        "nameMailSender": "production-mail-sender-5",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100
+    },
+    {
+        "id": 1371,
+        "status": "disabled-by-limit",
+        "idQueue": 6,
+        "nameMailSender": "production100-mail-sender-110",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100
+    },
+    {
+        "id": 1161,
+        "status": "enabled",
+        "idQueue": 547,
+        "nameMailSender": "production-mail-sender-70",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 1112,
+        "status": "enabled",
+        "idQueue": 531,
+        "nameMailSender": "production100-mail-sender-109",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 1139,
+        "status": "enabled",
+        "idQueue": 489,
+        "nameMailSender": "production-mail-sender-aws-2",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 500000000
+    },
+    {
+        "id": 484,
+        "status": "disabled",
+        "idQueue": 10,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 4000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 4000
+    },
+    {
+        "id": 485,
+        "status": "disabled",
+        "idQueue": 10,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 4000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 4000
+    },
+    {
+        "id": 487,
+        "status": "disabled",
+        "idQueue": 10,
+        "nameMailSender": "production-mail-sender-5",
+        "timeoutSentMails": 4000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 4000
+    },
+    {
+        "id": 474,
+        "status": "disabled",
+        "idQueue": 10,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 4800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 30
+    },
+    {
+        "id": 676,
+        "status": "disabled",
+        "idQueue": 257,
+        "nameMailSender": "production-mail-sender-aws-2",
+        "timeoutSentMails": 200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 490,
+        "status": "disabled",
+        "idQueue": 10,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 4000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 4000
+    },
+    {
+        "id": 830,
+        "status": "disabled",
+        "idQueue": 258,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 1200
+    },
+    {
+        "id": 731,
+        "status": "disabled",
+        "idQueue": 257,
+        "nameMailSender": "production-mail-sender-aws-21",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 842,
+        "status": "disabled",
+        "idQueue": 3,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 608,
+        "status": "disabled",
+        "idQueue": 2,
+        "nameMailSender": "production-mail-sender-aws-3",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 181,
+        "status": "disabled",
+        "idQueue": 2,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 300000
+    },
+    {
+        "id": 831,
+        "status": "disabled",
+        "idQueue": 258,
+        "nameMailSender": "production-mail-sender-aws-3",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 2000
+    },
+    {
+        "id": 850,
+        "status": "disabled",
+        "idQueue": 257,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 91,
+        "status": "disabled",
+        "idQueue": 10,
+        "nameMailSender": "production-mail-sender-4",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 525,
+        "status": "disabled",
+        "idQueue": 257,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 706,
+        "status": "disabled",
+        "idQueue": 257,
+        "nameMailSender": "production-mail-sender-aws-3",
+        "timeoutSentMails": 200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 729,
+        "status": "disabled",
+        "idQueue": 257,
+        "nameMailSender": "production-mail-sender-aws-23",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 730,
+        "status": "disabled",
+        "idQueue": 257,
+        "nameMailSender": "production-mail-sender-aws-22",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 851,
+        "status": "disabled",
+        "idQueue": 257,
+        "nameMailSender": "production100-mail-sender-103",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 491,
+        "status": "disabled",
+        "idQueue": 10,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 4000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 4000
+    },
+    {
+        "id": 528,
+        "status": "disabled",
+        "idQueue": 258,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 639,
+        "status": "disabled",
+        "idQueue": 3,
+        "nameMailSender": "production100-mail-sender-108",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 9200
+    },
+    {
+        "id": 678,
+        "status": "disabled",
+        "idQueue": 370,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 15000
+    },
+    {
+        "id": 679,
+        "status": "disabled",
+        "idQueue": 370,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 15000
+    },
+    {
+        "id": 535,
+        "status": "disabled",
+        "idQueue": 260,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 2000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 839,
+        "status": "disabled",
+        "idQueue": 5,
+        "nameMailSender": "production-mail-sender-aws-21",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 840,
+        "status": "disabled",
+        "idQueue": 5,
+        "nameMailSender": "production-mail-sender-aws-22",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 781,
+        "status": "disabled",
+        "idQueue": 10,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20
+    },
+    {
+        "id": 604,
+        "status": "disabled",
+        "idQueue": 258,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 527,
+        "status": "disabled",
+        "idQueue": 259,
+        "nameMailSender": "production-mail-sender-aws-21",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 6000
+    },
+    {
+        "id": 473,
+        "status": "disabled",
+        "idQueue": 10,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 4800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 30
+    },
+    {
+        "id": 483,
+        "status": "disabled",
+        "idQueue": 10,
+        "nameMailSender": "production100-mail-sender-111",
+        "timeoutSentMails": 4800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100
+    },
+    {
+        "id": 398,
+        "status": "disabled",
+        "idQueue": 106,
+        "nameMailSender": "production-mail-sender-4",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 1000000
+    },
+    {
+        "id": 526,
+        "status": "disabled",
+        "idQueue": 258,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 857,
+        "status": "enabled",
+        "idQueue": 449,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 50,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500000
+    },
+    {
+        "id": 865,
+        "status": "enabled",
+        "idQueue": 449,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 50,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500000
+    },
+    {
+        "id": 703,
+        "status": "enabled",
+        "idQueue": 293,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50
+    },
+    {
+        "id": 777,
+        "status": "enabled",
+        "idQueue": 327,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20
+    },
+    {
+        "id": 862,
+        "status": "enabled",
+        "idQueue": 449,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 50,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500000
+    },
+    {
+        "id": 863,
+        "status": "enabled",
+        "idQueue": 449,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 50,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500000
+    },
+    {
+        "id": 861,
+        "status": "enabled",
+        "idQueue": 449,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 50,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500000
+    },
+    {
+        "id": 864,
+        "status": "enabled",
+        "idQueue": 449,
+        "nameMailSender": "production100-mail-sender-103",
+        "timeoutSentMails": 50,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500000
+    },
+    {
+        "id": 856,
+        "status": "enabled",
+        "idQueue": 449,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 50,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500000
+    },
+    {
+        "id": 860,
+        "status": "enabled",
+        "idQueue": 449,
+        "nameMailSender": "production-mail-sender-5",
+        "timeoutSentMails": 50,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500000
+    },
+    {
+        "id": 859,
+        "status": "enabled",
+        "idQueue": 449,
+        "nameMailSender": "production-mail-sender-4",
+        "timeoutSentMails": 50,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500000
+    },
+    {
+        "id": 858,
+        "status": "enabled",
+        "idQueue": 449,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 50,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 500000
+    },
+    {
+        "id": 261,
+        "status": "enabled",
+        "idQueue": 100,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 260,
+        "status": "enabled",
+        "idQueue": 99,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 100,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 259,
+        "status": "enabled",
+        "idQueue": 98,
+        "nameMailSender": "production-mail-sender-5",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 257,
+        "status": "enabled",
+        "idQueue": 96,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 100,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 481,
+        "status": "enabled",
+        "idQueue": 224,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 262,
+        "status": "enabled",
+        "idQueue": 101,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 263,
+        "status": "enabled",
+        "idQueue": 102,
+        "nameMailSender": "production100-mail-sender-103",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 258,
+        "status": "enabled",
+        "idQueue": 97,
+        "nameMailSender": "production-mail-sender-4",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 768,
+        "status": "disabled-by-limit",
+        "idQueue": 5,
+        "nameMailSender": "production100-mail-sender-103",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 150
+    },
+    {
+        "id": 51,
+        "status": "enabled",
+        "idQueue": 3,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 35000
+    },
+    {
+        "id": 84,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 15000
+    },
+    {
+        "id": 17,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production-mail-sender-4",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 15000
+    },
+    {
+        "id": 401,
+        "status": "enabled",
+        "idQueue": 105,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 321,
+        "status": "enabled",
+        "idQueue": 2,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 61236
+    },
+    {
+        "id": 12,
+        "status": "enabled",
+        "idQueue": 2,
+        "nameMailSender": "production-mail-sender-5",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 58800
+    },
+    {
+        "id": 4,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 529,
+        "status": "disabled",
+        "idQueue": 260,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 829,
+        "status": "disabled-by-limit",
+        "idQueue": 5,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 150
+    },
+    {
+        "id": 568,
+        "status": "disabled",
+        "idQueue": 4,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 9000
+    },
+    {
+        "id": 767,
+        "status": "disabled-by-limit",
+        "idQueue": 5,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 150
+    },
+    {
+        "id": 841,
+        "status": "disabled",
+        "idQueue": 62,
+        "nameMailSender": "production-mail-sender-aws-21",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 770,
+        "status": "enabled",
+        "idQueue": 5,
+        "nameMailSender": "production-mail-sender-aws-3",
+        "timeoutSentMails": 2000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 223,
+        "status": "disabled",
+        "idQueue": 62,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 399,
+        "status": "enabled",
+        "idQueue": 104,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 60000
+    },
+    {
+        "id": 533,
+        "status": "enabled",
+        "idQueue": 260,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 482,
+        "status": "disabled",
+        "idQueue": 225,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 472,
+        "status": "disabled",
+        "idQueue": 104,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 25,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 635,
+        "status": "disabled-by-limit",
+        "idQueue": 2,
+        "nameMailSender": "production100-mail-sender-107",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 22000
+    },
+    {
+        "id": 792,
+        "status": "disabled",
+        "idQueue": 6,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 3000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 320
+    },
+    {
+        "id": 96,
+        "status": "enabled",
+        "idQueue": 1,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 1500,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 492,
+        "status": "disabled",
+        "idQueue": 10,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 4000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 4000
+    },
+    {
+        "id": 2,
+        "status": "disabled",
+        "idQueue": 1,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 6500
+    },
+    {
+        "id": 1,
+        "status": "disabled",
+        "idQueue": 1,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 97,
+        "status": "enabled",
+        "idQueue": 1,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 1500,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 636,
+        "status": "disabled-by-limit",
+        "idQueue": 2,
+        "nameMailSender": "production100-mail-sender-108",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 22000
+    },
+    {
+        "id": 95,
+        "status": "enabled",
+        "idQueue": 1,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 1500,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 791,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 15000
+    },
+    {
+        "id": 605,
+        "status": "enabled",
+        "idQueue": 257,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 90000
+    },
+    {
+        "id": 98,
+        "status": "enabled",
+        "idQueue": 1,
+        "nameMailSender": "production100-mail-sender-103",
+        "timeoutSentMails": 1500,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 89,
+        "status": "disabled",
+        "idQueue": 1,
+        "nameMailSender": "production-mail-sender-5",
+        "timeoutSentMails": 1500,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 6500
+    },
+    {
+        "id": 642,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production100-mail-sender-108",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 15000
+    },
+    {
+        "id": 569,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 15000
+    },
+    {
+        "id": 168,
+        "status": "enabled",
+        "idQueue": 2,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 69690
+    },
+    {
+        "id": 641,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production100-mail-sender-107",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 15000
+    },
+    {
+        "id": 92,
+        "status": "enabled",
+        "idQueue": 2,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 52200
+    },
+    {
+        "id": 179,
+        "status": "enabled",
+        "idQueue": 8,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 30000
+    },
+    {
+        "id": 172,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 835,
+        "status": "enabled",
+        "idQueue": 3,
+        "nameMailSender": "production-mail-sender-aws-23",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 85000
+    },
+    {
+        "id": 844,
+        "status": "enabled",
+        "idQueue": 3,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 18000
+    },
+    {
+        "id": 640,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production100-mail-sender-106",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 15000
+    },
+    {
+        "id": 171,
+        "status": "enabled",
+        "idQueue": 2,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 53610
+    },
+    {
+        "id": 852,
+        "status": "enabled",
+        "idQueue": 257,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 50000
+    },
+    {
+        "id": 167,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 834,
+        "status": "enabled",
+        "idQueue": 3,
+        "nameMailSender": "production-mail-sender-aws-22",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 85000
+    },
+    {
+        "id": 471,
+        "status": "enabled",
+        "idQueue": 3,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 478,
+        "status": "disabled-by-limit",
+        "idQueue": 3,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 9000
+    },
+    {
+        "id": 480,
+        "status": "enabled",
+        "idQueue": 2,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 52000
+    },
+    {
+        "id": 129,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 477,
+        "status": "enabled",
+        "idQueue": 2,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 52000
+    },
+    {
+        "id": 175,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production100-mail-sender-103",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 633,
+        "status": "enabled",
+        "idQueue": 3,
+        "nameMailSender": "production-mail-sender-aws-2",
+        "timeoutSentMails": 400,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 95000
+    },
+    {
+        "id": 632,
+        "status": "enabled",
+        "idQueue": 3,
+        "nameMailSender": "production-mail-sender-aws-3",
+        "timeoutSentMails": 400,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 833,
+        "status": "enabled",
+        "idQueue": 3,
+        "nameMailSender": "production-mail-sender-aws-21",
+        "timeoutSentMails": 300,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 85000
+    },
+    {
+        "id": 174,
+        "status": "enabled",
+        "idQueue": 2,
+        "nameMailSender": "production100-mail-sender-103",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 64570
+    },
+    {
+        "id": 634,
+        "status": "disabled-by-limit",
+        "idQueue": 2,
+        "nameMailSender": "production100-mail-sender-106",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 22000
+    },
+    {
+        "id": 790,
+        "status": "enabled",
+        "idQueue": 2,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 23000
+    },
+    {
+        "id": 13,
+        "status": "enabled",
+        "idQueue": 3,
+        "nameMailSender": "production-mail-sender-4",
+        "timeoutSentMails": 2000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 4400
+    },
+    {
+        "id": 18,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production-mail-sender-5",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 15000
+    },
+    {
+        "id": 130,
+        "status": "disabled-by-limit",
+        "idQueue": 3,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 318,
+        "status": "enabled",
+        "idQueue": 4,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 15000
+    },
+    {
+        "id": 766,
+        "status": "disabled-by-limit",
+        "idQueue": 5,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 250
+    },
+    {
+        "id": 50,
+        "status": "enabled",
+        "idQueue": 2,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 47000
+    },
+    {
+        "id": 11,
+        "status": "enabled",
+        "idQueue": 2,
+        "nameMailSender": "production-mail-sender-4",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 48376
+    },
+    {
+        "id": 400,
+        "status": "disabled",
+        "idQueue": 107,
+        "nameMailSender": "production-mail-sender-aws-2",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 1000000
+    },
+    {
+        "id": 176,
+        "status": "disabled-by-limit",
+        "idQueue": 3,
+        "nameMailSender": "production100-mail-sender-103",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 11000
+    },
+    {
+        "id": 530,
+        "status": "enabled",
+        "idQueue": 260,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 524,
+        "status": "enabled",
+        "idQueue": 6,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 486,
+        "status": "enabled",
+        "idQueue": 10,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 4000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 4000
+    },
+    {
+        "id": 763,
+        "status": "enabled",
+        "idQueue": 5,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 2000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 638,
+        "status": "disabled-by-limit",
+        "idQueue": 3,
+        "nameMailSender": "production100-mail-sender-107",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 11000
+    },
+    {
+        "id": 173,
+        "status": "disabled-by-limit",
+        "idQueue": 3,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 11000
+    },
+    {
+        "id": 680,
+        "status": "disabled",
+        "idQueue": 105,
+        "nameMailSender": "production-mail-sender-aws-2",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 479,
+        "status": "disabled-by-limit",
+        "idQueue": 3,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 11000
+    },
+    {
+        "id": 785,
+        "status": "enabled",
+        "idQueue": 104,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 30000
+    },
+    {
+        "id": 87,
+        "status": "enabled",
+        "idQueue": 8,
+        "nameMailSender": "production-mail-sender-4",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 402,
+        "status": "enabled",
+        "idQueue": 106,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 2000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 1000000
+    },
+    {
+        "id": 787,
+        "status": "enabled",
+        "idQueue": 106,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 86,
+        "status": "disabled",
+        "idQueue": 1,
+        "nameMailSender": "production-mail-sender-4",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 14,
+        "status": "enabled",
+        "idQueue": 3,
+        "nameMailSender": "production-mail-sender-5",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 9000
+    },
+    {
+        "id": 832,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 6200
+    },
+    {
+        "id": 843,
+        "status": "disabled-by-limit",
+        "idQueue": 3,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 11000
+    },
+    {
+        "id": 788,
+        "status": "enabled",
+        "idQueue": 106,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 20000
+    },
+    {
+        "id": 265,
+        "status": "enabled",
+        "idQueue": 104,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 60000
+    },
+    {
+        "id": 786,
+        "status": "enabled",
+        "idQueue": 104,
+        "nameMailSender": "production100-mail-sender-103",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 30000
+    },
+    {
+        "id": 675,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production100-mail-sender-108",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 180,
+        "status": "disabled-by-limit",
+        "idQueue": 5,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 2000
+    },
+    {
+        "id": 769,
+        "status": "enabled",
+        "idQueue": 5,
+        "nameMailSender": "production-mail-sender-aws-2",
+        "timeoutSentMails": 2000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 315,
+        "status": "enabled",
+        "idQueue": 152,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 475,
+        "status": "enabled",
+        "idQueue": 222,
+        "nameMailSender": "production100-mail-sender-105",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 5,
+        "status": "enabled",
+        "idQueue": 2,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 6,
+        "status": "enabled",
+        "idQueue": 8,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 3,
+        "status": "enabled",
+        "idQueue": 3,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 13000
+    },
+    {
+        "id": 266,
+        "status": "enabled",
+        "idQueue": 105,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 322,
+        "status": "enabled",
+        "idQueue": 5,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 80
+    },
+    {
+        "id": 637,
+        "status": "disabled-by-limit",
+        "idQueue": 3,
+        "nameMailSender": "production100-mail-sender-106",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 8500
+    },
+    {
+        "id": 616,
+        "status": "enabled",
+        "idQueue": 105,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 438,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 400333
+    },
+    {
+        "id": 267,
+        "status": "disabled",
+        "idQueue": 106,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 1000000
+    },
+    {
+        "id": 319,
+        "status": "disabled",
+        "idQueue": 106,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 8,
+        "status": "enabled",
+        "idQueue": 5,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 88,
+        "status": "enabled",
+        "idQueue": 8,
+        "nameMailSender": "production-mail-sender-5",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 85,
+        "status": "enabled",
+        "idQueue": 5,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 150
+    },
+    {
+        "id": 15,
+        "status": "enabled",
+        "idQueue": 5,
+        "nameMailSender": "production-mail-sender-4",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 150
+    },
+    {
+        "id": 16,
+        "status": "enabled",
+        "idQueue": 5,
+        "nameMailSender": "production-mail-sender-5",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 150
+    },
+    {
+        "id": 531,
+        "status": "disabled",
+        "idQueue": 260,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 855,
+        "status": "enabled",
+        "idQueue": 448,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 800,
+        "parallelSentMails": 2,
+        "maximumCountSentMails": 500000000
+    },
+    {
+        "id": 7,
+        "status": "enabled",
+        "idQueue": 12,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 100,
+        "parallelSentMails": 0,
+        "maximumCountSentMails": 100000000
+    },
+    {
+        "id": 847,
+        "status": "enabled",
+        "idQueue": 62,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 256,
+        "status": "enabled",
+        "idQueue": 95,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 1000000
+    },
+    {
+        "id": 308,
+        "status": "enabled",
+        "idQueue": 145,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 313,
+        "status": "enabled",
+        "idQueue": 149,
+        "nameMailSender": "production-mail-sender-4",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 314,
+        "status": "enabled",
+        "idQueue": 153,
+        "nameMailSender": "production-mail-sender-5",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 311,
+        "status": "enabled",
+        "idQueue": 148,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 320,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5700
+    },
+    {
+        "id": 395,
+        "status": "enabled",
+        "idQueue": 107,
+        "nameMailSender": "production-mail-sender-4",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 4800
+    },
+    {
+        "id": 394,
+        "status": "enabled",
+        "idQueue": 104,
+        "nameMailSender": "production-mail-sender-4",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 3,
+        "maximumCountSentMails": 60000
+    },
+    {
+        "id": 396,
+        "status": "enabled",
+        "idQueue": 105,
+        "nameMailSender": "production-mail-sender-4",
+        "timeoutSentMails": 600,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 10000
+    },
+    {
+        "id": 614,
+        "status": "enabled",
+        "idQueue": 330,
+        "nameMailSender": "production100-mail-sender-107",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 476,
+        "status": "enabled",
+        "idQueue": 223,
+        "nameMailSender": "production100-mail-sender-104",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 310,
+        "status": "enabled",
+        "idQueue": 147,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 307,
+        "status": "enabled",
+        "idQueue": 144,
+        "nameMailSender": "production-mail-sender-aws",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 615,
+        "status": "enabled",
+        "idQueue": 331,
+        "nameMailSender": "production100-mail-sender-108",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 312,
+        "status": "enabled",
+        "idQueue": 150,
+        "nameMailSender": "production100-mail-sender-103",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 611,
+        "status": "enabled",
+        "idQueue": 328,
+        "nameMailSender": "production-mail-sender-aws-3",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 571,
+        "status": "enabled",
+        "idQueue": 294,
+        "nameMailSender": "production-mail-sender-aws-2",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 613,
+        "status": "enabled",
+        "idQueue": 329,
+        "nameMailSender": "production100-mail-sender-106",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 793,
+        "status": "enabled",
+        "idQueue": 409,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 50
+    },
+    {
+        "id": 789,
+        "status": "enabled",
+        "idQueue": 409,
+        "nameMailSender": "production100-mail-sender-103",
+        "timeoutSentMails": 2400,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 5000
+    },
+    {
+        "id": 178,
+        "status": "disabled-by-limit",
+        "idQueue": 6,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 300
+    },
+    {
+        "id": 317,
+        "status": "disabled-by-limit",
+        "idQueue": 6,
+        "nameMailSender": "production100-mail-sender-102",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 300
+    },
+    {
+        "id": 10,
+        "status": "disabled",
+        "idQueue": 6,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 300
+    },
+    {
+        "id": 391,
+        "status": "disabled",
+        "idQueue": 6,
+        "nameMailSender": "production-mail-sender-3",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 300
+    },
+    {
+        "id": 405,
+        "status": "enabled",
+        "idQueue": 189,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 3000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 1000
+    },
+    {
+        "id": 406,
+        "status": "enabled",
+        "idQueue": 189,
+        "nameMailSender": "production100-mail-sender-1",
+        "timeoutSentMails": 3000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 1000
+    },
+    {
+        "id": 782,
+        "status": "enabled",
+        "idQueue": 408,
+        "nameMailSender": "production200-mail-sender-200",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 309,
+        "status": "enabled",
+        "idQueue": 146,
+        "nameMailSender": "production-mail-sender-1",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 316,
+        "status": "enabled",
+        "idQueue": 151,
+        "nameMailSender": "production100-mail-sender-101",
+        "timeoutSentMails": 1200,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 100000
+    },
+    {
+        "id": 392,
+        "status": "disabled",
+        "idQueue": 6,
+        "nameMailSender": "production-mail-sender-2",
+        "timeoutSentMails": 6000,
+        "parallelSentMails": 1,
+        "maximumCountSentMails": 300
+    }
+]
