@@ -391,26 +391,19 @@ app.get('/api/cached-stats', async (req, res) => {
     
     const csvContent = fs.readFileSync(statsPath, 'utf8');
     
-    // Парсим CSV и возвращаем как JSON
+    // Возвращаем CSV напрямую (как ожидает frontend)
     const lines = csvContent.trim().split('\n');
-    const headers = lines[0].split(',');
-    const data = lines.slice(1).map(line => {
-      const values = line.split(',');
-      const row = {};
-      headers.forEach((header, index) => {
-        row[header.trim()] = values[index] ? values[index].trim() : '';
-      });
-      return row;
-    });
+    console.log(`✅ Загружено ${lines.length - 1} записей из кэша`);
     
-    console.log(`✅ Загружено ${data.length} записей из кэша`);
+    // Устанавливаем заголовки для CSV
+    res.setHeader('Content-Type', 'text/csv; charset=utf-8');
+    res.setHeader('Cache-Control', 'no-cache');
     
-    res.json({
-      success: true,
-      data: data,
-      count: data.length,
-      lastUpdated: new Date().toISOString()
-    });
+    // Устанавливаем Last-Modified из времени модификации файла
+    const stats = fs.statSync(statsPath);
+    res.setHeader('Last-Modified', stats.mtime.toUTCString());
+    
+    res.send(csvContent);
     
   } catch (error) {
     console.error('❌ Ошибка чтения кэшированной статистики:', error);
