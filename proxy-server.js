@@ -286,6 +286,63 @@ app.post('/api/update-server-config', async (req, res) => {
   }
 });
 
+// Endpoint для получения BI кэша
+app.get('/api/bi_cache.json', async (req, res) => {
+  try {
+    console.log('📊 Получение BI кэша...');
+    
+    const fs = await import('fs');
+    const path = await import('path');
+    
+    const biCachePath = path.join(process.cwd(), 'bi_cache.json');
+    
+    if (!fs.existsSync(biCachePath)) {
+      return res.status(404).json({ 
+        success: false, 
+        error: 'Файл bi_cache.json не найден' 
+      });
+    }
+    
+    const biCacheContent = fs.readFileSync(biCachePath, 'utf8');
+    const biData = JSON.parse(biCacheContent);
+    
+    console.log(`✅ Загружено ${Array.isArray(biData) ? biData.length : 'данные'} из BI кэша`);
+    
+    res.setHeader('Content-Type', 'application/json');
+    res.setHeader('Cache-Control', 'no-cache');
+    res.json(biData);
+    
+  } catch (error) {
+    console.error('❌ Ошибка чтения BI кэша:', error);
+    res.status(500).json({ 
+      success: false, 
+      error: error.message 
+    });
+  }
+});
+
+// Endpoint для получения metabase.txt
+app.get('/api/metabase.txt', async (req, res) => {
+  try {
+    const fs = await import('fs');
+    const path = await import('path');
+    
+    const metabasePath = path.join(process.cwd(), 'metabase.txt');
+    
+    if (!fs.existsSync(metabasePath)) {
+      return res.status(404).send('Файл metabase.txt не найден');
+    }
+    
+    const content = fs.readFileSync(metabasePath, 'utf8');
+    res.setHeader('Content-Type', 'text/plain');
+    res.send(content);
+    
+  } catch (error) {
+    console.error('❌ Ошибка чтения metabase.txt:', error);
+    res.status(500).send('Ошибка чтения файла');
+  }
+});
+
 // Endpoint для получения кэшированной статистики
 app.get('/api/cached-stats', async (req, res) => {
   try {

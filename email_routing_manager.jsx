@@ -191,7 +191,7 @@ const EmailRoutingManager = () => {
       const cacheBuster = forceRefresh ? Date.now() : Math.floor(Date.now() / 30000) * 30000;
       
       // Загружаем данные из BI кэша (как статистика из cached_stats.csv)
-      const biResponse = await fetch(`/bi_cache.json?v=${cacheBuster}`);
+      const biResponse = await fetch(`/api/bi_cache.json?v=${cacheBuster}`);
       if (!biResponse.ok) {
         throw new Error(`HTTP error! status: ${biResponse.status}`);
       }
@@ -233,7 +233,7 @@ const EmailRoutingManager = () => {
       setLastUpdate(new Date());
       // Устанавливаем время последнего обновления BI кэша (берем время модификации файла)
       try {
-        const response = await fetch(`/bi_cache.json?v=${cacheBuster}`);
+        const response = await fetch(`/api/bi_cache.json?v=${cacheBuster}`);
         const lastModified = response.headers.get('last-modified');
         if (lastModified) {
           setLastBIUpdate(new Date(lastModified));
@@ -263,7 +263,7 @@ const EmailRoutingManager = () => {
       console.log('🔄 Обновление BI кэша...');
       
       // Обновляем кэш через proxy сервер
-      const response = await fetch('http://localhost:3001/api/update-bi-cache', { 
+      const response = await fetch('/api/update-bi-cache', { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -290,7 +290,7 @@ const EmailRoutingManager = () => {
   // Загрузка API ключа Metabase
   const loadMetabaseApiKey = async () => {
     try {
-      const response = await fetch('/metabase.txt');
+      const response = await fetch('/api/metabase.txt');
       const apiKey = await response.text();
       setMetabaseApiKey(apiKey.trim());
     } catch (error) {
@@ -441,7 +441,7 @@ const EmailRoutingManager = () => {
       console.log('Загрузка кэшированных данных...');
       
       // Загружаем кэшированные данные через proxy, чтобы получить корректный Last-Modified
-      const response = await fetch('http://localhost:3001/cached_stats.csv', { method: 'GET' });
+      const response = await fetch('/api/cached-stats', { method: 'GET' });
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
@@ -2227,7 +2227,7 @@ const EmailRoutingManager = () => {
                       
                       try {
                         setIsUpdatingStats(true);
-                        const response = await fetch('http://localhost:3001/api/update-stats', { method: 'POST' });
+                        const response = await fetch('/api/update-stats', { method: 'POST' });
                         if (response.ok) {
                           // После успешного обновления статистики сразу перезагружаем данные
                           await fetchMetabaseStatistics();
