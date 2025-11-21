@@ -27,8 +27,12 @@ build/
 Thumbs.db
 
 # Logs
-logs
+logs/
 *.log
+
+# Backups
+backups/
+*.tar.gz
 
 # Runtime data
 pids
