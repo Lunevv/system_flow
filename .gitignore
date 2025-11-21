@@ -44,7 +44,7 @@ tmp/
 temp/
 
 # Data files (generated on server)
-cached_stats.csv
+# cached_stats.csv - теперь отслеживается в Git
 cached_stats_backup*.csv
 bi_cache.json
 query_result*.csv
